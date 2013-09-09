@@ -3,16 +3,16 @@ Introductions :
 
 ### Resources
 
- > 1. User Guide :
+ * 1. User Guide :
            TMR_FC_UM_V1_120730.pdf
 
- > 2. Sechematic :
+ * 2. Sechematic :
            TMR_FC_HW_V1_120830.pdf
 
- > 3. Gerber :
+ * 3. Gerber :
            TMRFC_GB_V1_120930.rar
 
- > 4. Software :
+ * 4. Software :
            The software is Porting from "PX4".
            https://github.com/cctsao1008/TMR
          
@@ -65,13 +65,13 @@ Introductions :
 
 ### Hardware Features
 
- > 1. MCU : 
+ * 1. MCU : 
            STM32f405RG
 
- > 2. AHRS :
+ * 2. AHRS :
            MPU6050, HMC5883, MS5611
 
- > 3. Features :
+ * 3. Features :
            12 channels PWM output, one PPM input and one Futaba S.BUS input,
            Built-in 10 DOF, 5 LEDs ( controlled by PCA9533/9536), GPS port ( UART / I2C),
            Auxiliary SPI and  GPIO, RF port (APC230 or BT), LiPo Voltage measure via ADC,
@@ -80,10 +80,10 @@ Introductions :
            RTC ( power keep by 3V CR1220 )
            ....... etc
 
- > 4. Stress Test VB scripts :
+ * 4. Stress Test VB scripts :
            Auto re-boot loop test, tone alarm loop test, ..... etc
 
- > 5. Support PX4 Qupgrade tool :
+ * 5. Support PX4 Qupgrade tool :
 
 
 Firmware update steps :
@@ -110,4 +110,13 @@ Firmware update steps :
   >  5. Click "Flash"
   >  6. Connect your TMRFC board via USB, OR click "RESET" key on TMRFC board
 
-Enjoy your TMRFC !!
+Enjoy your TMR-FC !!
+
+
+
+If you need further information or assistance please revert.
+
+Sincerely yours.
+
+TSAO, CHIA-CHENG ( chiacheng.tsao@gmail.com )
+
