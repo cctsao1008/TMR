@@ -3,23 +3,28 @@ Introductions :
 
 ### Resources
 
- * 1. User Guide :
+ *  User Guide :
+ 
            TMR_FC_UM_V1_120730.pdf
 
- * 2. Sechematic :
-           TMR_FC_HW_V1_120830.pdf
+ *  Sechematic :
+ 
+          TMR_FC_HW_V1_120830.pdf
 
- * 3. Gerber :
+ *  Gerber :
+
            TMRFC_GB_V1_120930.rar
 
- * 4. Software :
+ *  Software :
+
            The software is Porting from "PX4".
            https://github.com/cctsao1008/TMR
          
 ### Get source code :
     
- * pi@raspberry:/x $ cd x: ( ex. )
- * pi@raspberry:/x $ git clone git@github.com:cctsao1008/TMR.git
+ > pi@raspberry：/x $ cd x: ( ex. )
+ 
+ > pi@raspberry：/x $ git clone git@github.com:cctsao1008/TMR.git
        
            Cloning into 'TMR'...
            remote: Counting objects: 11, done.
@@ -27,8 +32,9 @@ Introductions :
            remote: Total 11 (delta 3), reused 5 (delta 1)
            Receiving objects: 100% (11/11), done.
 
- * pi@raspberry:/x $ cd cd TMR/
- * pi@raspberry:/x/TMR (master)$ git submodule update --init --recursive
+ > pi@raspberry：/x $ cd cd TMR/
+ 
+ > pi@raspberry：/x/TMR (master)$ git submodule update --init --recursive
  
            Submodule 'Bootloader' (git@github.com:cctsao1008/Bootloader.git) registered for path 'Bootloader'
            Submodule 'Firmware' (https://github.com/cctsao1008/Firmware) registered for path 'Firmware'
@@ -65,13 +71,16 @@ Introductions :
 
 ### Hardware Features
 
- * 1. MCU : 
+  *  MCU : 
+
            STM32f405RG
 
- * 2. AHRS :
+  *  AHRS :
+
            MPU6050, HMC5883, MS5611
 
- * 3. Features :
+  *  Features :
+
            12 channels PWM output, one PPM input and one Futaba S.BUS input,
            Built-in 10 DOF, 5 LEDs ( controlled by PCA9533/9536), GPS port ( UART / I2C),
            Auxiliary SPI and  GPIO, RF port (APC230 or BT), LiPo Voltage measure via ADC,
@@ -80,20 +89,21 @@ Introductions :
            RTC ( power keep by 3V CR1220 )
            ....... etc
 
- * 4. Stress Test VB scripts :
+  *  Stress Test VB scripts :
+
            Auto re-boot loop test, tone alarm loop test, ..... etc
 
- * 5. Support PX4 Qupgrade tool :
+  *  Support PX4 Qupgrade tool :
 
 
 Firmware update steps :
 ===================================
 
-### 1. Update bootloader
+###   Update bootloader
 
     sudo dfu-util -a 0 -d 0x0483:0xdf11 --dfuse-address 0x08000000 -D tmrfc_bl.bin
 
-### 2. Update OS image
+###   Update OS image
 
   * Optinn 1 : Using "dfu-util"
 
@@ -103,12 +113,12 @@ Firmware update steps :
 
     Note :  To using "QUpgrade" if you have " tmrfc_bl.bin" been pre-flashed !!! 
 
-  >  1. Get the tool :  (https://pixhawk.ethz.ch/px4/downloads)<br />
-  >  2. Open "QUpgrade" tool
-  >  3. Select "Advanced"
-  >  4. Select your "tmrfc-v1_default.px4"
-  >  5. Click "Flash"
-  >  6. Connect your TMRFC board via USB, OR click "RESET" key on TMRFC board
+    1. Get the tool :  (https://pixhawk.ethz.ch/px4/downloads)<br />
+    2. Open "QUpgrade" tool
+    3. Select "Advanced"
+    4. Select your "tmrfc-v1_default.px4"
+    5. Click "Flash"
+    6. Connect your TMRFC board via USB, OR click "RESET" key on TMRFC board
 
 Enjoy your TMR-FC !!
 
