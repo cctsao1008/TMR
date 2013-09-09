@@ -1,0 +1,9 @@
+[submodule "Firmware"]
+	path = Firmware
+	url = https://github.com/cctsao1008/Firmware
+[submodule "libopencm3"]
+	path = libopencm3
+	url = git@github.com:cctsao1008/libopencm3.git
+[submodule "Bootloader"]
+	path = Bootloader
+	url = git@github.com:cctsao1008/Bootloader.git
