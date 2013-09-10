@@ -1,7 +1,10 @@
+TMR-FC : a flight controller
+===================================
+
 ![TMR-6A](http://api.ning.com/files/jY5mCCMi3CRInh4R8yXGssICRu4ks**VAul7*nLfd2Gr30zyGduX4zLlkqmehdcHnky*z0-FdQ603CA1CuJxyc2YXQpvgG3l/20121231011936.jpg "TMR-6A")
 
-Description
-===================================
+###Description
+
 
 TMR-FC is built for my graduation project, It's designed to control a multi-rotor copter for research,
 
