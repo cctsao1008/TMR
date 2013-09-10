@@ -1,7 +1,14 @@
+
+![TMR-6A](http://api.ning.com/files/jY5mCCMi3CRInh4R8yXGssICRu4ks**VAul7*nLfd2Gr30zyGduX4zLlkqmehdcHnky*z0-FdQ603CA1CuJxyc2YXQpvgG3l/20121231011936.jpg "TMR-6A")
+
 Introductions :
 ===================================
 
 ### Resources
+
+ *  DIY Drones Blog :
+
+      http://diydrones.com/profiles/blogs/my-flight-controller
 
  *  User Guide :
  
@@ -18,12 +25,10 @@ Introductions :
  *  Software :
 
            The software is Porting from "PX4".
-           https://github.com/cctsao1008/TMR
+           https://github.com/px4
          
 ### Get source code :
     
- > pi@raspberry：/x $ cd x: ( ex. )
- 
  > pi@raspberry：/x $ git clone git@github.com:cctsao1008/TMR.git
        
            Cloning into 'TMR'...
@@ -32,7 +37,7 @@ Introductions :
            remote: Total 11 (delta 3), reused 5 (delta 1)
            Receiving objects: 100% (11/11), done.
 
- > pi@raspberry：/x $ cd cd TMR/
+ > pi@raspberry：/x $ cd TMR/
  
  > pi@raspberry：/x/TMR (master)$ git submodule update --init --recursive
  
