@@ -89,7 +89,7 @@ a empty PCB to you.
 
            STM32f405RG
 
-  *  AHRS :
+  *  Sensors :
 
            MPU6050, HMC5883, MS5611
 
@@ -100,7 +100,7 @@ a empty PCB to you.
            Auxiliary SPI and  GPIO, RF port (APC230 or BT), LiPo Voltage measure via ADC,
            Beeper for tone alarm, SWD port, SONAR, USB VCP and MSC, Micro SD ( can be read via USB),
            Light Bar LED control, Internal FLASH EEPROM emulation using sector 1, 2 and 3 ( 16KB x 3 ),
-           RTC ( power keep by 3V CR1220 )
+           RTC ( power keep by 3V CR1220 ), USB OTG,
            ....... etc
 
   *  Stress Test VB scripts :
