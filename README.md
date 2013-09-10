@@ -126,7 +126,13 @@ Firmware update steps
 
 ### Update bootloader
 
+  * Optinn 1 : Using "dfu-util"  ( Recommend )
+
          sudo dfu-util -a 0 -d 0x0483:0xdf11 --dfuse-address 0x08000000 -D tmrfc_bl.bin
+
+  * Optinn 2 : Using "Segger J-Link"
+
+      [Segger J-Link EDU official website](http://www.segger.com/j-link-edu.html)
 
 ### Update OS image
 
@@ -134,7 +140,7 @@ Firmware update steps
 
          sudo dfu-util -a 0 -d 0x0483:0xdf11 --dfuse-address 0x08004000 -D tmrfc-v1_default.bin
 
-  * Option 2 : Using "QUpgrade"
+  * Option 2 : Using "QUpgrade"  ( Recommend )
 
          Note :  To using "QUpgrade" if you have " tmrfc_bl.bin" been pre-flashed !!! 
 
@@ -144,6 +150,10 @@ Firmware update steps
          4. Select your "tmrfc-v1_default.px4"
          5. Click "Flash"
          6. Connect your TMRFC board via USB, OR click "RESET" key on TMRFC board
+
+  * Optinn 3 : Using "Segger J-Link"
+
+      [Segger J-Link EDU official website](http://www.segger.com/j-link-edu.html)
 
 Enjoy your TMR-FC !!
 
