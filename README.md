@@ -85,7 +85,7 @@ a empty PCB to you.
 
 ### Hardware Features
 
-  *  MCU : 
+  *  CPU : 
 
            STM32f405RG
 
