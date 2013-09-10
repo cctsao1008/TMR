@@ -1,8 +1,17 @@
-
 ![TMR-6A](http://api.ning.com/files/jY5mCCMi3CRInh4R8yXGssICRu4ks**VAul7*nLfd2Gr30zyGduX4zLlkqmehdcHnky*z0-FdQ603CA1CuJxyc2YXQpvgG3l/20121231011936.jpg "TMR-6A")
 
 Introductions :
 ===================================
+
+TMR-FC is built for my graduation project, It's designed to control a multi-rotor copter for research,
+
+It's supposed to not for sale, but if you are interested, you can build it by your self, I can provide
+
+a empty PCB to you.
+        
+      
+![TMRFC-T](https://lh5.googleusercontent.com/-XYsK7enXFu8/UEcryTjIElI/AAAAAAAAGc8/OJrowpTF_j8/s554/DSC_0192.jpg "TMRFC-T")
+![TMRFC-B](https://lh4.googleusercontent.com/-fWInVx9VkrA/UEcrzUAXoeI/AAAAAAAAGdE/_suOKUsVzLk/s554/DSC_0193.jpg "TMRFC-B")
 
 ### Resources
 
