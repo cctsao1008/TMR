@@ -185,8 +185,9 @@ Firmware update steps
 
       [Segger J-Link EDU official website](http://www.segger.com/j-link-edu.html)
 
-Enjoy your TMR-FC !!
 
+Finally, Enjoy your TMR-FC !!
+-----------------------------
 
 
 If you need further information or assistance please revert.
