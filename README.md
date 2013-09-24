@@ -1,5 +1,5 @@
 TMR-FC : Top Multi-Rotor Flight Controller
-============================
+------------------------------------------
 
 ![TMR-6A](http://api.ning.com/files/jY5mCCMi3CRInh4R8yXGssICRu4ks**VAul7*nLfd2Gr30zyGduX4zLlkqmehdcHnky*z0-FdQ603CA1CuJxyc2YXQpvgG3l/20121231011936.jpg "TMR-6A")
 
@@ -100,21 +100,39 @@ Hardware Features
 
   *  CPU : 
 
-         STM32f405RG
+         V1.0
+         
+             STM32f405RG
+             
+         V2.0
+         
+             STM32f407VG ( + Raspberry Pi V2.0 with camera module )
 
   *  Sensors :
 
-         MPU6050, HMC5883, MS5611
+         V1.0
+         
+             MPU6050, HMC5883, MS5611
+             
+         V2.0
+         
+             MPU6000, HMC5983, MS5611, LSM303D, L3G4200D ( All sensors can be sharing to Raspberry Pi)
 
   *  Features :
 
-         12 channels PWM output, one PPM input and one Futaba S.BUS input,
-         Built-in 10 DOF, 5 LEDs ( controlled by PCA9533/9536), GPS port ( UART / I2C),
-         Auxiliary SPI and  GPIO, RF port (APC230 or BT), LiPo Voltage measure via ADC,
-         Beeper for tone alarm, SWD port, SONAR, USB VCP and MSC, Micro SD ( can be read via USB),
-         Light Bar LED control, Internal FLASH EEPROM emulation using sector 1, 2 and 3 ( 16KB x 3 ),
-         RTC ( power keep by 3V CR1220 ), USB OTG,
-         ....... etc
+         V1.0
+         
+             12 channels PWM output, one PPM input and one Futaba S.BUS input,
+             Built-in 10 DOF, 5 LEDs ( controlled by PCA9533/9536), GPS port ( UART / I2C),
+             Auxiliary SPI and  GPIO, RF port (APC230 or BT), LiPo Voltage measure via ADC,
+             Beeper for tone alarm, SWD port, SONAR, USB VCP and MSC, Micro SD ( can be read via USB),
+             Light Bar LED control, Internal FLASH EEPROM emulation using sector 1, 2 and 3 ( 16KB x 3 ),
+             RTC ( power keep by 3V CR1220 ), USB OTG,
+             ....... etc
+         
+         V2.0
+         
+             Under construction
 
   *  Stress Test VB scripts :
 
