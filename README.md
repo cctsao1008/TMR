@@ -128,7 +128,8 @@ Hardware Features
              
          V2.0
          
-             MPU6000, HMC5983, MPL3115A2, LSM303DLM, L3G4200D , ADXRS620 ( All sensors can be sharing to Raspberry Pi )
+             MPU6000, HMC5983, MPL3115A2, LSM303DLM, L3G4200D, ADXRS620 ( All sensors can be sharing to Raspberry Pi )
+             PS : LSM303DLM, L3G4200D and ADXRS620 are optional item.
 
   *  Features :
 
