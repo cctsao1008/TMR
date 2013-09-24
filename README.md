@@ -128,7 +128,7 @@ Hardware Features
              
          V2.0
          
-             MPU6000, HMC5983, MS5611, LSM303D, L3G4200D ( All sensors can be sharing to Raspberry Pi)
+             MPU6000, HMC5983, MS5611, LSM303D, L3G4200D ( All sensors can be sharing to Raspberry Pi )
 
   *  Features :
 
