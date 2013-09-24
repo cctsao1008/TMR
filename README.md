@@ -138,7 +138,8 @@ Hardware Features
          
          V2.0
          
-             Under construction
+             Under construction, I have ideas, but I do not have money to do, haha, If you want 
+             co-work with me or any idea on V2.0, please email, or you want to donate ( My Paypal "chiacheng.tsao"  )
 
   *  Stress Test VB scripts :
 
