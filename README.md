@@ -124,12 +124,16 @@ Hardware Features
 
          V1.0
          
-             MPU6050, HMC5883, MS5611
+             I2C : MPU6050, HMC5883, MS5611
              
          V2.0
          
-             MPU6000, HMC5983, MPL3115A2, LSM303DLM, L3G4200D, ADXRS620 ( All sensors can be sharing to Raspberry Pi )
-             PS : LSM303DLM, L3G4200D and ADXRS620 are optional item.
+             I2C : HMC5983, MPL3115A2
+             SPI : MPU6000, *LSM303DLM, *L3G4200D
+             ADC : *ADXRS620
+             
+             * Marked are optional item. In some applications, all sensors can be sharing
+             to Raspberry Pi for applications to use.
 
   *  Features :
 
