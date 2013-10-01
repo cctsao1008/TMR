@@ -149,7 +149,7 @@ Hardware Features
          
          V2.0
          
-             + CAN bus and transceiver  IC ( TJA1050 or MAX3051 )
+             + CAN transceiver IC ( TJA1050 or MAX3051 )
              
              Under construction, I have ideas, but I do not have money to do, haha, If you want 
              co-work with me or any idea on V2.0, please email, or you want to donate to TMR V2.0.
