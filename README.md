@@ -130,7 +130,7 @@ Hardware Features
          
              I2C : HMC5983, MPL3115A2
              SPI : MPU6000, *LSM303DLM, *L3G4200D
-             ADC : *ADXRS620
+             ADC : *ADXRS652 x 3
              
              * Marked are optional item. In some applications, all sensors can be sharing
              to Raspberry Pi for applications to use.
