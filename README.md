@@ -128,7 +128,7 @@ Hardware Features
              
          V2.0
          
-             I2C : HMC5983, MPL3115A2
+             I2C : HMC5983, MPL3115A2 ( or MS5611 )
              SPI : MPU6000, *LSM303DLM, *L3G4200D
              ADC : *ADXRS652 x 3
              
