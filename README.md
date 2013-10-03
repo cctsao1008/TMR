@@ -31,6 +31,10 @@ Descriptions
 
 ![TMRFC-RPI](https://lh5.googleusercontent.com/-ceNzAmTz5RI/UkEFcuy2-vI/AAAAAAAAPIQ/vlQr_GfAb-8/w590-h369-no/RPi.jpg "TMRFC-RPI")
 
+ Camera Module
+ 
+ ![PI-CAM](https://lh6.googleusercontent.com/-Bchq-cpOLe0/Uk0P3YUKfPI/AAAAAAAAPKs/BJ7JzhdZ054/w800-h600-no/T2RqtjXt8XXXXXXXXX_%2521%2521864110349.jpg "PI-CAM")
+
 Resources
 ---------
 
