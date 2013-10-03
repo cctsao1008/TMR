@@ -59,6 +59,8 @@ Resources
       Actually, the software is Porting from "PX4"
       
       [PX4 Autopilot Project](https://github.com/px4)
+      
+      [PX4 Autopilot Website](https://pixhawk.ethz.ch/px4/en/start)
          
 Get source code
 ---------------
