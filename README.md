@@ -1,5 +1,5 @@
-TMR-FC : A flight controller
-============================
+TMR-FC : Top Multi-Rotor Flight Controller
+------------------------------------------
 
 ![TMR-6A](http://api.ning.com/files/jY5mCCMi3CRInh4R8yXGssICRu4ks**VAul7*nLfd2Gr30zyGduX4zLlkqmehdcHnky*z0-FdQ603CA1CuJxyc2YXQpvgG3l/20121231011936.jpg "TMR-6A")
 
@@ -7,15 +7,34 @@ Descriptions
 ------------
 
 
-TMR-FC is built for my graduation project, It's designed to control a multi-rotor copter for research,
+ *  TMR-FC is built for my graduation project, It's designed to control a multi-rotor copter for research,
 
-It's supposed to not for sale, but if you are interested, you can build it by your self, I can provide
+    It's supposed to not for sale, but if you are interested, you can build it by your self, I can provide
 
-a empty PCB to you.
-        
-      
+    a empty PCB to you.
+
+
+
+
+ * V1.0
+
 ![TMRFC-T](https://lh5.googleusercontent.com/-XYsK7enXFu8/UEcryTjIElI/AAAAAAAAGc8/OJrowpTF_j8/s554/DSC_0192.jpg "TMRFC-T")
 ![TMRFC-B](https://lh4.googleusercontent.com/-fWInVx9VkrA/UEcrzUAXoeI/AAAAAAAAGdE/_suOKUsVzLk/s554/DSC_0193.jpg "TMRFC-B")
+
+ * V2.0 ( Work stand alone or became a daughter board of Raspberry Pi with camera board for flow application )
+
+![TMRFC-PI](https://lh4.googleusercontent.com/-3GsCG-IL2zc/UkECyNAzdaI/AAAAAAAAPH8/t4znxiEpDLM/w768-h537-no/2013-9-24+%25E4%25B8%258A%25E5%258D%2588+10-30-12.jpg "TMRFC-PI")
+
+ * Raspberry Pi
+
+ Will use OpenCV, ROS, MAVLink ... etc  
+ Offical Website : http://www.raspberrypi.org/
+
+![TMRFC-RPI](https://lh5.googleusercontent.com/-ceNzAmTz5RI/UkEFcuy2-vI/AAAAAAAAPIQ/vlQr_GfAb-8/w590-h369-no/RPi.jpg "TMRFC-RPI")
+
+ * Camera Module For Raspberry Pi
+ 
+![PI-CAM](https://lh6.googleusercontent.com/-Bchq-cpOLe0/Uk0P3YUKfPI/AAAAAAAAPKs/BJ7JzhdZ054/w800-h600-no/T2RqtjXt8XXXXXXXXX_%2521%2521864110349.jpg "PI-CAM")
 
 Resources
 ---------
@@ -41,6 +60,8 @@ Resources
       Actually, the software is Porting from "PX4"
       
       [PX4 Autopilot Project](https://github.com/px4)
+      
+      [PX4 Autopilot Website](https://pixhawk.ethz.ch/px4/en/start)
          
 Get source code
 ---------------
@@ -98,21 +119,50 @@ Hardware Features
 
   *  CPU : 
 
-         STM32f405RG
+         V1.0
+         
+             STM32f405RG
+             
+         V2.0
+         
+             STM32f407VG
 
   *  Sensors :
 
-         MPU6050, HMC5883, MS5611
+         V1.0
+         
+             I2C : MPU6050, HMC5883, MS5611
+             
+         V2.0
+         
+             I2C : HMC5983, MPL3115A2 ( or MS5611 )
+             SPI : MPU6000, *LSM303DLM, *L3G4200D
+             ADC : *ADXRS652 x 3
+             
+             * Marked are optional item. In some applications, all sensors can be sharing
+               to Raspberry Pi for applications to use.
 
   *  Features :
 
-         12 channels PWM output, one PPM input and one Futaba S.BUS input,
-         Built-in 10 DOF, 5 LEDs ( controlled by PCA9533/9536), GPS port ( UART / I2C),
-         Auxiliary SPI and  GPIO, RF port (APC230 or BT), LiPo Voltage measure via ADC,
-         Beeper for tone alarm, SWD port, SONAR, USB VCP and MSC, Micro SD ( can be read via USB),
-         Light Bar LED control, Internal FLASH EEPROM emulation using sector 1, 2 and 3 ( 16KB x 3 ),
-         RTC ( power keep by 3V CR1220 ), USB OTG,
-         ....... etc
+         V1.0
+         
+             12 channels PWM output, one PPM input and one Futaba S.BUS input,
+             Built-in 10 DOF, 5 LEDs ( controlled by PCA9533/9536), GPS port ( UART / I2C),
+             Auxiliary SPI and  GPIO, RF port (APC230 or BT), LiPo Voltage measure via ADC,
+             Beeper for tone alarm, SWD port, SONAR, USB VCP and MSC, Micro SD ( can be read via USB),
+             Light Bar LED control, Internal FLASH EEPROM emulation using sector 1, 2 and 3 ( 16KB x 3 ),
+             RTC ( power keep by 3V CR1220 ), USB OTG,
+             ....... etc
+         
+         V2.0
+         
+             + CAN transceiver IC ( TJA1050 or MAX3051 )
+             
+             Under construction, I have ideas, but I do not have money to do, :( , If you want 
+             co-work with me or any idea on V2.0, please email, or you want to donate to TMR V2.0.
+             
+  [![image]](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chiacheng%2etsao%40gmail%2ecom&lc=US&item_name=TMR%20Project&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
+  [image]: https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Donate"
 
   *  Stress Test VB scripts :
 
@@ -155,8 +205,9 @@ Firmware update steps
 
       [Segger J-Link EDU official website](http://www.segger.com/j-link-edu.html)
 
-Enjoy your TMR-FC !!
 
+Finally, Enjoy your TMR-FC !!
+-----------------------------
 
 
 If you need further information or assistance please revert.
@@ -165,3 +216,5 @@ Sincerely yours.
 
 TSAO, CHIA-CHENG @NTUT, Taiwan ( chiacheng.tsao@gmail.com )
 
+[![image]](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chiacheng%2etsao%40gmail%2ecom&lc=US&item_name=TMR%20Project&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
+[image]: https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Donate"
