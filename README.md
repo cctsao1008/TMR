@@ -68,7 +68,7 @@ Get source code
 
   *  Clone TMR project : 
 
-         pi@raspberry：/x $ git clone [git@github.com:cctsao1008/TMR.git](git@github.com:cctsao1008/TMR.git)
+         $ git clone [https://github.com/cctsao1008/TMR](https://github.com/cctsao1008/TMR)
        
          Cloning into 'TMR'...
          remote: Counting objects: 11, done.
@@ -78,12 +78,12 @@ Get source code
 
   *  Initialize and clone submodules : 
 
-         pi@raspberry：/x $ cd TMR/
-         pi@raspberry：/x/TMR (master)$ git submodule update --init --recursive
+         $ cd TMR/
+         $ git submodule update --init --recursive
  
-         Submodule 'Bootloader' (git@github.com:cctsao1008/Bootloader.git) registered for path 'Bootloader'
+         Submodule 'Bootloader' (https://github.com/cctsao1008/Bootloader.git) registered for path 'Bootloader'
          Submodule 'Firmware' (https://github.com/cctsao1008/Firmware) registered for path 'Firmware'
-         Submodule 'libopencm3' (git@github.com:cctsao1008/libopencm3.git) registered for path 'libopencm3'
+         Submodule 'libopencm3' (https://github.com/cctsao1008/libopencm3.git) registered for path 'libopencm3'
          Cloning into 'Bootloader'...
          remote: Counting objects: 148, done.
          remote: Compressing objects: 100% (50/50), done.
