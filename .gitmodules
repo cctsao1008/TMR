@@ -3,7 +3,7 @@
 	url = https://github.com/cctsao1008/Firmware
 [submodule "libopencm3"]
 	path = libopencm3
-	url = git@github.com:cctsao1008/libopencm3.git
+	url = https://github.com/cctsao1008/libopencm3
 [submodule "Bootloader"]
 	path = Bootloader
-	url = git@github.com:cctsao1008/Bootloader.git
+	url = https://github.com/cctsao1008/Bootloader
