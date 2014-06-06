@@ -210,7 +210,7 @@ Finally, Enjoy your TMR-FC !!
 -----------------------------
 
 
-If you need further information or assistance please revert.
+Feel free to send e-mail to me, If you need further information or assistance.
 
 Sincerely yours.
 
