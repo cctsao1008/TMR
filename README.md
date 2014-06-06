@@ -211,7 +211,7 @@ Finally, Enjoy your TMR-FC !!
 -----------------------------
 
 
-Please feel free to contact me by an email if you need further information.
+Please contact us via email for additional information.
 
 Sincerely yours.
 
