@@ -161,8 +161,6 @@ Hardware Features
              This version is under construction. I think that using Raspberry Pi to as a brain to control
              a copter is a good ideas, but I do not have money to do so, :( , If you want 
              co-work with me or any idea on V2.0, please email me, or you want to donate to TMR V2.0.
-             
-  [![image]](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chiacheng%2etsao%40gmail%2ecom&lc=US&item_name=TMR%20Project&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
 
   *  Stress Test VB scripts :
 
@@ -215,5 +213,3 @@ Please contact us via email for additional information.
 Sincerely yours.
 
 TSAO, CHIA-CHENG @NTUT, Taiwan ( chiacheng.tsao@gmail.com )
-
-[![image]](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chiacheng%2etsao%40gmail%2ecom&lc=US&item_name=TMR%20Project&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
